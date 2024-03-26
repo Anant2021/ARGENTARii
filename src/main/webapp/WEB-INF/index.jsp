@@ -23,8 +23,8 @@
     </div>
 </div>
 <div id="buttons" class="button">
-    <button id="b1">Register</button>
-    <button id="b2">Login</button>
+    <button  id="b1"><a href="/register">Register</a></button>
+    <button id="b2"> <a href="/login">Login</a></button>
 </div>
 </body>
 </html>

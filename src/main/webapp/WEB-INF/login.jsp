@@ -5,11 +5,11 @@
   Time: 13:16
   To change this template use File | Settings | File Templates.
 --%>
+
 <!DOCTYPE html>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -21,7 +21,7 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #f2f2f2;
-            background-image: url("../images/bank-background-ip8nfi9oj3rxoh2b.jpg");
+            background-image: url("../resources/static/images/bank-background-ip8nfi9oj3rxoh2b.jpg");
             display: flex;
             justify-content: center;
             align-items: center;
