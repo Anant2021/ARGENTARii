@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+
+}
+
+/* main body style*/
+body{
+    height: 67vh;
+    /*background-image: url("bank-background-ip8nfi9oj3rxoh2b.jpg");*/
+    background-image: url("../images/bank-background-ip8nfi9oj3rxoh2b.jpg");
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+    
+}
+#sample-text-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:  100px;
+    border-radius: 10%;
+    background-color:dimgrey; 
+    opacity: 65%; 
+    margin-left:  100PX;;
+    margin-right: 100px ;
+ margin-bottom: auto;
+
+}
+#sample-text-card h1{
+    font-size: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    align-content: center;
+    justify-content: center;
+    color: aquamarine;
+    opacity: 100%;    
+text-align: center;
+text-decoration: underline;
+}
+#sample-text-card h5 {
+    font-size: 25px;
+    font-family: monospace;
+    opacity: 100%;
+    text-underline-offset: 5;   
+     text-decoration: overline;
+     text-align: center;
+     color:aquamarine;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    background-color: darkgrey;
+    opacity: 58%;
+    border-radius: 10%;
+    margin-left: 50%;
+    margin-right: 50%;
+
+}
+
+
+
+
+#buttons button  {
+    font-size: 29px;
+    padding: 14px 16;
+    background-color:darkcyan;
+    font-family: cursive;       
+    margin: 7px 2;
+    cursor: pointer;
+    float: left;
+    border-radius: 20%;
+    
+    
+}
+#b1{
+    margin-right:30px;
+   text-shadow: 1em;
+
+}
+#b2{
+    margin: 30px;
+}
+#b1:hover{
+    letter-spacing: 0.05em;
+    background-color: maroon;
+}
+#b2:hover {
+    letter-spacing: 0.25em;
+    background-color:gold;
+}
+
+#d1 {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    border-radius: 15%;
+    background-color: aliceblue;
+    margin-left: 100px;
+    opacity:  .8;
+    margin-right: 100px;
+    /* align-items:  center; */
+    padding: auto;
+    box-shadow: inset -10px -10px 10px darkgrey, inset 10px 10px 5px lightgray;
+    }
+
+
+#card-body{
+
+    /* display:  inline-block; */
+    width : 46% ;   
+    background-color: aqua;
+    height: 370px;
+    /* padding: auto; */
+    font-size: large;   
+    align-items: first baseline;
+
+    
+}
+#form-group col{
+     align-content: center;
+     padding-left: 10%; 
+     padding-inline-start: 10%;
+     padding-bottom: 5%;
+     float: left;
+}
+#ref-form{
+    text-align: left;
+    background-color: darkcyan;
+}
+.body{
+    
+}
+/* #Register{
+  justify-content: center;
+  margin-left: auto;      
+  margin-top: 8%;
+  background-color: aliceblue;
+  border-radius: 20%;
+  font-family: fantasy;
+  font-size: 60px;
+  opacity: 55%;
+  text-decoration: solid;
+  padding-left: ;
+  margin-right: auto;
+  text-shadow: 50px;
+}
+#Register:hover {
+    letter-spacing: 0.01em;
+    background-color: crimson;
+}
+#Login{
+    padding: auto;
+    justify-content: center;
+    margin-left:auto%;
+    margin-top: 8%;
+    margin-right: auto;
+    font-family: fantasy;
+    border-radius: 20%;
+    background-color: white;
+    font-size: 60px;
+    opacity: 55%;
+    text-decoration: solid;
+
+}
+
+#Login:hover{
+    letter-spacing: 0.03em ;
+    background-color: crimson;
+} */
+/* for register page */
+

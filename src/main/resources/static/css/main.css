@@ -1,0 +1,127 @@
+*{
+    font-family: fantasy;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color:black;
+    font-size: 30px;
+    background-image: url("../images/peakpx.jpg");
+        background-size: cover;
+}
+
+.container{
+    margin: 10px auto;
+}
+.main-page-header{
+    padding: 8px 10px;
+    background-color: steelblue;
+    align-items: center;
+    font-size: 25px;
+    border-radius: 30%/90%;
+    background-image: url("../images/bank-background-ip8nfi9oj3rxoh2b.jpg");
+    border-style: groove;
+    border-width: 5px;
+    border-color: blueviolet;
+}
+
+.main-page-header.company-name{
+font-family: fantasy;
+color:midnightblue;
+align-items: center;
+font-size: 50px;
+display: flex;
+justify-content: space-between;
+}
+
+.navigation{
+    border: 1px snow;
+    text-align: center;
+    align-items: center;
+    padding: 12px;
+    background-color: lightgray;
+    border-radius: 40px;
+    margin: auto;
+    width: fit-content;
+}
+.navigation li{
+    display: inline-block;
+    list-style-type:circle;
+    margin: 0px 10px;   
+}
+.navigation li a{
+    color: brown;
+    text-decoration: overline;
+}
+#welcome{
+    align-items: end;
+}
+.display-name{
+text-align: end;
+margin-top: 1px;
+color: midnightblue;
+}
+#sgn{
+    text-align: end;
+    align-items: end;
+    margin-left: 87%;
+    font-size: large;
+    border-style:groove;
+    border-width: 3px;
+    border-color:whitesmoke;
+  background-color:antiquewhite;
+}
+/* transact */
+#transact-btn{
+    background-color:darkorange;
+    border: 1px solid #0b171e;
+    border-style: groove;
+    font-family: fantasy;
+    border-width: 2px;
+}
+/* Add new Account */
+
+#add-acc-btn{
+margin-right: 7px;
+background-color: darkturquoise;
+border: 1px slateblue;
+border-style: double;
+border-width: 2px;
+}
+/* offcanvas */
+.offcanvas{
+    background-image:url(../images/peakpx.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    border-style: groove;
+    border-width: 10px;
+    border-color: #0b171e;
+    border-top-right-radius: 3%;
+    border-bottom-right-radius:3%;
+}
+/* payment card */
+/* .payment-card{
+    display:none;
+} */
+#hacc{
+    display: none;
+}
+#htrans{
+    display: none;
+}
+#hw{
+    display: none;
+}
+#hdepo {
+    display: none;
+}
+#offcanvasRightLabel{
+    font-family: fantasy;
+    font-size: 40px;
+    color: brown;
+}
+#offcanvasExampleLabel{
+    font-family: fantasy;
+    font-size: 40px;
+    color: brown;
+}
