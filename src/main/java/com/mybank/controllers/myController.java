@@ -28,5 +28,19 @@ public ModelAndView getLogin(){
     getRegisterPage.addObject("PageTitle","Register");
     return  getRegisterPage;
 }
+@GetMapping("/error")
+    public ModelAndView gertError(){
+    ModelAndView getErrorPage= new ModelAndView("error");
+    System.out.println("in error Controller");
+    getErrorPage.addObject("PageTitle","Error");
+    return getErrorPage;
+
+}
+@GetMapping("/verify") public  ModelAndView getVerify(){
+    ModelAndView getVerifyPage= new ModelAndView("login");
+    System.out.println("In Verify");
+    getVerifyPage.addObject("PageTitle","Errors");
+    return  getVerifyPage;
+}
 
 }
