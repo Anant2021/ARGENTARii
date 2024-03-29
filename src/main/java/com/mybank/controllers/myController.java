@@ -22,12 +22,7 @@ public ModelAndView getLogin(){
     return getLoginPage;
 
 }
-@GetMapping("/register") public ModelAndView getRegister(){
-    ModelAndView getRegisterPage = new ModelAndView("register");
-    System.out.println("In getRegister Controller");
-    getRegisterPage.addObject("PageTitle","Register");
-    return  getRegisterPage;
-}
+
 @GetMapping("/error")
     public ModelAndView gertError(){
     ModelAndView getErrorPage= new ModelAndView("error");

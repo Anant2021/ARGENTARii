@@ -21,20 +21,24 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #f2f2f2;
-            background-image: url("../resources/static/images/bank-background-ip8nfi9oj3rxoh2b.jpg");
+            background-image: url("../images/bank-background-ip8nfi9oj3rxoh2b.jpg");
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
+            background-repeat: no-repeat ;
+            background-size: cover;
             margin: auto;
         }
 
         .login-container {
-            background-color: #ffffff;
+            background-color: #c5d7f2;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
             width: 300px;
+            border-style: wave;
+
         }
 
         .login-container h1 {
@@ -44,7 +48,7 @@
 
         .form-group {
             margin-bottom: 15px;
-            margin-right: auto;
+            margin-right: 10%;
             margin-left: auto   ;
 
         }
@@ -59,20 +63,27 @@
             padding: 10px;
             border: 1px solid #ccc;
             border-radius: 4px;
+        margin-right: 10%;
         }
 
         .form-group button {
-            width: 100%;
+            /*width: 100%;*/
             padding: 10px;
             background-color: #007bff;
             color: #ffffff;
             border: none;
             border-radius: 4px;
             cursor: pointer;
+            align-self: center;
+            margin-left: 50%;
         }
 
         .form-group button:hover {
             background-color: #0056b3;
+
+        }
+        #username{
+            margin-right: 50px;
         }
     </style>
 </head>
